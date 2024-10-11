@@ -1,0 +1,67 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+db.sqlite3
+
+# Django
+/media
+/staticfiles
+.env
+*.log
+
+# Redis dump file
+dump.rdb
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build
+build/
+
+# MacOS
+.DS_Store
+
+# Docker
+*.env
+docker-compose.override.yml
+*.bak
+*.backup
+docker-compose.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Ignore database migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.log
+*/migrations/*__pycache__/
+
+# pytest cache
+.pytest_cache/
